@@ -1,0 +1,23 @@
+main {
+  display: grid;
+  
+}
+
+.parties a {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  padding: 1ch;
+  text-decoration: none;
+  color: black;
+}
+
+.parties a:hover {
+  background: #eee;
+  font-style: italic;
+}
+
+.parties li.selected {
+  font-weight: bold;
+  font-style: italic;
+}
